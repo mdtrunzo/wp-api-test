@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 const dotenv = require('dotenv').config()
 const session = require('express-session')
-const PORT = process.env.PORT
+const PORT = 5000
 const cors = require('cors')
 
 const app = express()
